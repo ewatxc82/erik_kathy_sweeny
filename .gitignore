@@ -132,4 +132,4 @@ dmypy.json
 ../Resources/pollution_data_2000_2016.csv
 ../Resources/pop_data.csv
 
-*.csv
+*pollution_us_2000_2016.csv
