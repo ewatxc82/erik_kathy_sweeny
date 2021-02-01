@@ -131,3 +131,5 @@ dmypy.json
 # Ignore CSV files that are too large for GitHub to upload
 ../Resources/pollution_data_2000_2016.csv
 ../Resources/pop_data.csv
+
+*.csv
