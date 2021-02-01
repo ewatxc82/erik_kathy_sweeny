@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore CSV files that are too large for GitHub to upload
+../pollution_data_2000_2016.csv
+../pop_data.csv
