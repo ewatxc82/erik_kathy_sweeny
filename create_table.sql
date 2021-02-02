@@ -1,10 +1,28 @@
-Create Two Tables
-CREATE TABLE LAX (
-    Year INT PRIMARY KEY,
-     Population INT
-     );
+CCREATE TABLE  lax_df
+(
+	Year INT PRIMARY KEY,
+	NO2_Mean NUMERIC, 
+	NO2_AQI NUMERIC,
+    O3_Mean NUMERIC,
+    O3_AQI NUMERIC,
+   	SO2_Mean NUMERIC,
+   	SO2_AQI NUMERIC,
+    CO_Mean NUMERIC,
+    CO_AQI NUMERIC,
+    Population INT
+);
 
-CREATE TABLE NYC (
-Year INT PRIMARY KEY,
-Population INT
- 
+CREATE TABLE  nyc_df
+(
+	Year INT PRIMARY KEY,
+	NO2_Mean NUMERIC, 
+	NO2_AQI NUMERIC,
+    O3_Mean NUMERIC,
+    O3_AQI NUMERIC,
+   	SO2_Mean NUMERIC,
+   	SO2_AQI NUMERIC,
+    CO_Mean NUMERIC,
+    CO_AQI NUMERIC,
+    Population INT
+);
+
